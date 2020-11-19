@@ -1,0 +1,24 @@
+<html>
+<head>
+<title> Multi Table </title>
+<input type="text" id="A" placeholder="Enter Your Number">
+<br><br>
+<input type="text" id="B" placeholder="Enter Your Limits">
+<br><br>
+<input type="text" id="C" placeholder="Enter Your Number">
+<br><br>
+<button onclick="Value()">Click Me</button>
+<script>
+
+function Value(){
+    var A1 = document.getElementById("A").value;
+    var A2 = document.getElementById("B").value;
+    var A3 = document.getElementById("C").value;
+        for (var i = A1; i<=A2; i++){
+         var mul = i * A3; 
+            document.write(i + "X" + A3 + " = " + mul + "<br>"); 
+    }
+}
+</script>
+</head>
+</html>
